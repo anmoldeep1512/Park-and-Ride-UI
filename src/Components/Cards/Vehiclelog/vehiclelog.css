@@ -1,0 +1,30 @@
+.vehiclelog{
+    margin-top: 5%;
+    display: flex;
+    flex-direction:column;
+    padding: 1%;
+    flex-wrap: wrap;
+}
+.vehiclelogcard{
+    background-color: rgba(237, 243, 243, 0.993)!important;
+    /* background-color: white; */
+    box-shadow: -7px -6px 16px 0px rgba(65, 62, 62, 0.78)!important;
+-webkit-box-shadow: -7px -6px 16px 0px rgba(99, 94, 94, 0.78) !important;
+-moz-box-shadow: -7px -6px 16px 0px rgba(102, 96, 96, 0.78)!important;
+color: brown !important;
+align-items: center;
+}
+.description{
+    color: rgb(24, 22, 22);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.title{
+    font-weight: 50px;
+    background-color:slategrey;
+}
+.button-container{
+    display: flex;
+    justify-content:center;
+}
+

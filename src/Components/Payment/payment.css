@@ -1,0 +1,10 @@
+.payment{
+    flex:4;
+    background: transparent;
+    margin-top: 20px;
+    
+}
+.tablecell{
+    align-items: center;
+    padding: 20px;
+}

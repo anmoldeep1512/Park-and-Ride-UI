@@ -1,0 +1,8 @@
+.parkingArea{
+    flex:4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+}

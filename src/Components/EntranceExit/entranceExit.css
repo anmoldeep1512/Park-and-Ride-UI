@@ -1,0 +1,53 @@
+.vehicleinfo{
+   
+    flex:4;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    flex-wrap: wrap
+}
+
+.vehicleLog{
+    padding: 2%;
+    width: 25%;
+    display: flex;
+    flex-direction:column;
+}
+
+.vehicleinfoitem{
+    text-align: center;
+    background-color: rgba(237, 243, 243, 0.993)!important;
+    box-shadow: -7px -6px 16px 0px rgba(65, 62, 62, 0.78)!important;
+    -webkit-box-shadow: -7px -6px 16px 0px rgba(99, 94, 94, 0.78) !important;
+    -moz-box-shadow: -7px -6px 16px 0px rgba(102, 96, 96, 0.78)!important;
+    color: brown !important;
+    padding-bottom: 3%;
+}
+
+.vehicleinfoTitle{
+    font-size: 23px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(240, 233, 233);
+    background-color: slategrey;
+    padding-top: 2px;
+  
+    
+}
+.vehicleinfoContainer{
+    margin: 8px 0px 0px 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.vehicleinfoparking{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size:19px;
+    font-weight: 5px;
+    color: rgb(20, 19, 19);
+}
+

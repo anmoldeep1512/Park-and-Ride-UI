@@ -1,0 +1,73 @@
+#contact {
+	width: 100%;
+	min-height: 500px;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 4px 3px -3px inset;
+
+}
+#main_contact{
+	width:600px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-bottom:0px;
+	height: 100%;
+	background-color:rgba(12, 11, 11, 0.699);
+	margin: 40px auto 40px auto;
+	border-radius: 10px;
+	    box-shadow: 0px 0px 4px;
+
+}
+#main_contact h3{
+	color: white;
+	text-align: center;
+    font-weight: 200;
+    font-size: 35px;
+    font-family: "Roboto";
+    padding-bottom: 5px;
+    position: relative;
+}
+#main_contact h3:before{
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 1px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+#contact-form form input, textarea{
+	width: 80%;
+	padding:12px;
+	font-size: 20px;
+	margin:5px 8% ;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	border: none;
+}
+#contact-form form textarea{
+	height: 180px;
+}
+#contact-form form button{
+	width:84%;
+	justify-content: center;
+	padding:12px;
+	font-size: 20px;
+	margin:5px 8%;
+	border-radius: 5px;
+	color: #1d6fa5;
+	border: none;
+	background-color:rgb(66, 133, 153);
+	color:white;
+	box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, .25) inset,
+    12px 12px 16px 0 rgba(0, 0, 0, .25);
+}
+
+#contact-form ::placeholder{
+	color: black;
+}

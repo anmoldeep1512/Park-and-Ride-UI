@@ -1,0 +1,14 @@
+.divLog{
+    display: flex;
+    flex-direction:column;
+    padding: 1%;
+}
+
+.cardLog{
+    background-color: rgba(237, 243, 243, 0.993)!important;
+    box-shadow: -7px -6px 16px 0px rgba(65, 62, 62, 0.78)!important;
+    -webkit-box-shadow: -7px -6px 16px 0px rgba(99, 94, 94, 0.78) !important;
+    -moz-box-shadow: -7px -6px 16px 0px rgba(102, 96, 96, 0.78)!important;
+    color: brown !important;
+}
+
